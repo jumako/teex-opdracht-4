@@ -17,7 +17,24 @@ User Story:
 
 ## Quality Attributes
 
-> TODO: Breid de applicatie uit met enkele quality attributes waarbij je de NoSQL database zinvol gebruikt.
+### **1. Snelle Reactietijd**
+
+### **Beschrijving:**
+
+De applicatie moet toetsvragen vrijwel onmiddellijk kunnen ophalen,
+zodat gebruikers zonder merkbare vertraging door de toets kunnen navigeren.
+
+### **2. Hoge Beschikbaarheid (High Availability & Fault Tolerance)**
+
+### **Beschrijving:**
+
+De applicatie moet altijd beschikbaar blijven, zelfs als er een database-node uitvalt.
+
+### **3. Ondersteuning voor Real-Time Data Analyse**
+
+### **Beschrijving:**
+
+De applicatie moet in staat zijn om toetsgegevens in real-time te analyseren en gebruiken voor adaptieve toetsing.
 
 ## Principles
 

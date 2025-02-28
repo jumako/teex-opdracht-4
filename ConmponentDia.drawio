@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="8_rblXGErAzxLHbZ6MDD">
-    <mxGraphModel>
+    <mxGraphModel dx="784" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="ibXm0BCVcYREkkEhTDIu-1" target="ibXm0BCVcYREkkEhTDIu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-1" value="Dashboard&lt;br&gt;&lt;div&gt;[Container]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="ibXm0BCVcYREkkEhTDIu-5" target="ibXm0BCVcYREkkEhTDIu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-5" value="Dashboard Controller&lt;div&gt;[Component]&lt;/div&gt;&lt;div&gt;Allows people to get information about a live exam&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="ibXm0BCVcYREkkEhTDIu-7" target="ibXm0BCVcYREkkEhTDIu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-7" value="Dashboard Repository&lt;div&gt;[Component]&lt;/div&gt;&lt;div&gt;Provides logic to communicate with the exams table&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="630" width="270" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-9" value="Database&lt;div&gt;[Container]&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-19" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="620" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ibXm0BCVcYREkkEhTDIu-19">
+          <mxGeometry width="620" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-21" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="ibXm0BCVcYREkkEhTDIu-20">
+          <mxGeometry width="620" height="490" as="geometry">
+            <mxRectangle width="620" height="490" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-22" value="Retrieves dashboad exams data&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="770" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-23" value="Back-end&lt;div&gt;[Container]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-25" value="Retrieves dashboad exams data&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ibXm0BCVcYREkkEhTDIu-27" value="Retrieves dashboad exams data&lt;div&gt;[JSON /HTTP]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
